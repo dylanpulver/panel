@@ -1076,7 +1076,7 @@ class Viewable(Renderable, Layoutable, ServableMixin):
           The maximum number of states to embed
         max_opts: int
           The maximum number of states for a single widget
-        json: boolean (default=True)
+        json: boolean (default=False)
           Whether to export the data to json files
         json_prefix: str (default='')
           Prefix for JSON filename
@@ -1124,7 +1124,7 @@ class Viewable(Renderable, Layoutable, ServableMixin):
            The maximum number of states to embed
         max_opts: int
            The maximum number of states for a single widget
-        embed_json: boolean (default=True)
+        embed_json: boolean (default=False)
            Whether to export the data to json files
         json_prefix: str (default='')
            Prefix for the auto-generated json directory

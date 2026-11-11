@@ -234,7 +234,7 @@ def wait_until(fn, page=None, timeout=5000, interval=100):
     page : playwright.sync_api.Page, optional
         Playwright page
     timeout : int, optional
-        Total timeout in milliseconds, by default 10000
+        Total timeout in milliseconds, by default 5000
     interval : int, optional
         Waiting interval, by default 100
 

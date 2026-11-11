@@ -207,7 +207,7 @@ def embed_state(panel, model, doc, max_states=1000, max_opts=3,
       The maximum number of states to export
     max_opts: int (default=3)
       The max number of ticks sampled in a continuous widget like a slider
-    json: boolean (default=True)
+    json: boolean (default=False)
       Whether to export the data to json files
     json_prefix: str (default='')
       Prefix for JSON filename

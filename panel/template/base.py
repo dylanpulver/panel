@@ -470,7 +470,7 @@ class BaseTemplate(param.Parameterized, MimeRenderMixin, ServableMixin, Resource
            The maximum number of states to embed
         max_opts: int
            The maximum number of states for a single widget
-        embed_json: boolean (default=True)
+        embed_json: boolean (default=False)
            Whether to export the data to json files
         json_prefix: str (default='')
            Prefix for the auto-generated json directory

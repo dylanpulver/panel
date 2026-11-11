@@ -786,7 +786,7 @@ def render_embed(
       The maximum number of states to embed
     max_opts: int
       The maximum number of states for a single widget
-    json: boolean (default=True)
+    json: boolean (default=False)
       Whether to export the data to json files
     json_prefix: str (default='')
       Prefix for JSON filename
@@ -794,7 +794,7 @@ def render_embed(
       The path to save json files to
     load_path: str (default=None)
       The path or URL the json files will be loaded from.
-    progress: boolean (default=False)
+    progress: boolean (default=True)
       Whether to report progress
     states: dict (default={})
       A dictionary specifying the widget values to embed for each widget
